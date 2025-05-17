@@ -1,0 +1,50 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.daichang.starlightbyte.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "starlight.refmap.json",
+  "mixins": [
+    "EntityMixin",
+    "EntityTickListMixin",
+    "LivingEntityMixin",
+    "Mixins$MixinArrayList",
+    "Mixins$MixinServerGamePacketListenerImpl",
+    "Mixins$MixinServerPlayer",
+    "MusicsMixin",
+    "PlayerMixin",
+    "ResourceLocationMixin",
+    "ServerLevelMixin",
+    "commands.KickCommandMixin",
+    "item.InvetoryMixin",
+    "item.ItemMixin",
+    "swordblock.UseAnimMixin"
+  ],
+  "client": [
+    "ClientLevelMixin",
+    "MixinMinecraft",
+    "Mixins$ForgeGuiMixin",
+    "Mixins$GuiGraphicsMixin",
+    "Mixins$GuiMixin",
+    "Mixins$LevelRenderMixin",
+    "Mixins$LogoRendererMixin",
+    "Mixins$MixinFont",
+    "Mixins$MixinLocalPlayer",
+    "Mixins$MixinPlayerInfo",
+    "Mixins$MixinSplashRenderer",
+    "Mixins$ScreenMixin",
+    "Mixins$WindowMixin",
+    "TitleScreenMixin",
+    "renderer.AbstractButtonMixin",
+    "renderer.EntityRenderMixin",
+    "renderer.ERDispatcherMixin",
+    "renderer.ItemRender$ItemRendererMixin",
+    "renderer.LivingEntityRendererMixin",
+    "swordblock.HumanoidModelMixin",
+    "swordblock.ItemInHandRendererMixin",
+    "swordblock.PlayerItemInHandLayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

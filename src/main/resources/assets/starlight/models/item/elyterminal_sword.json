@@ -1,0 +1,11 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "starlight:item/elyterminal_sword"
+  },
+  "display": {
+    "gui": {
+      "model": "starlight:item/mode_target"
+    }
+  }
+}

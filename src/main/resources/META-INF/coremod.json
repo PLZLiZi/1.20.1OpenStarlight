@@ -1,0 +1,4 @@
+{
+  "eventBus": "META-INF/asm/eventbus.js",
+  "living_entity" : "META-INF/asm/living_entity.js"
+}
